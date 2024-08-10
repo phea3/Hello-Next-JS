@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "About Hello to Next jS",
+};
+
 const About = () => {
   return (
     <div>

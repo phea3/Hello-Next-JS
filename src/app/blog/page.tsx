@@ -1,7 +1,15 @@
+import { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Blog",
+};
+
 const Blog = () => {
   return (
     <div>
-      <p>Blog</p>
+      <p>My Blog</p>
+      <Link href={"/"}>Home</Link>
     </div>
   );
 };
